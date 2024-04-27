@@ -1,5 +1,4 @@
 <?php
-
 // require 'flight/Flight.php';
 require 'flight/autoload.php';
 
