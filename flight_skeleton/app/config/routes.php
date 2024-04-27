@@ -12,7 +12,7 @@ $router->get('/', function() use ($app) {
 	$app->render('welcome', [ 'message' => 'You are gonna do great things!' ]);
 });
 
-$router->get('/hello-world/@name', function($name) {
+$router->get('/hallo/@name', function($name) {
 	echo '<h1>Hello world! Oh hey '.$name.'!</h1>';
 });
 
@@ -21,4 +21,13 @@ $router->group('/api', function() use ($router, $app) {
 	$router->get('/users', [ $Api_Example_Controller, 'getUsers' ]);
 	$router->get('/users/@id:[0-9]', [ $Api_Example_Controller, 'getUser' ]);
 	$router->post('/users/@id:[0-9]', [ $Api_Example_Controller, 'updateUser' ]);
+});
+
+Flight::group('/cms', function(){
+    Flight::route('GET /', function(){
+        echo 'Admin home page';
+    });
+    Flight::route('GET /settings', function(){
+        echo 'Admin settings';
+    });
 });

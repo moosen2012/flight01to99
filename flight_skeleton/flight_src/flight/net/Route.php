@@ -6,7 +6,7 @@ namespace flight\net;
 
 /**
  * The Route class is responsible for routing an HTTP request to
- * an assigned callback function. The Router tries to match the
+ * an assigned callback fun ction. The Router tries to match the
  * requested URL against a series of URL patterns.
  *
  * @license MIT, http://flightphp.com/license
