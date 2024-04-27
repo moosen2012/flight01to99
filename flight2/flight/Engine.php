@@ -94,50 +94,75 @@ class Engine
      * @throws Exception
      * @return mixed Callback results
      */
+    /**
+     * 处理动态调用的方法。
+     * 当尝试调用对象上不存在的方法时，此方法会被自动调用。
+     * 首先尝试从调度器中获取方法的回调函数，如果存在且可调用，则执行该回调。
+     * 如果回调不存在或不可调用，则从加载器中获取方法映射，确保方法是已映射的。
+     * 最后，根据参数决定是否以共享方式加载并执行该方法。
+     *
+     * @param string $name 被调用的 方法名。
+     * @param array $params 调用方法时传递的参数数组。
+     * @return mixed 方法的执行结果。如果方法成功执行则返回结果，如果方法未找到则抛出异常。
+     * @throws Exception 如果方法名没有在调度器中映射且在加载器中也未找到对应的映射，则抛出异常。
+     */
     public function __call(string $name, array $params)
     {
+        // 尝试从调度器获取方法的回调
         $callback = $this->dispatcher->get($name);
 
+        // 检查回调是否可调用，如果可调用则执行回调并返回结果
         if (\is_callable($callback)) {
             return $this->dispatcher->run($name, $params);
         }
 
+        // 从加载器获取方法映射，确保方法是已映射的
         if (!$this->loader->get($name)) {
             throw new Exception("$name must be a mapped method.");
         }
 
+        // 根据参数数组判断是否以共享方式加载方法
         $shared = empty($params) || $params[0];
 
+        // 加载并执行方法，返回结果
         return $this->loader->load($name, $shared);
     }
+
 
     //////////////////
     // Core Methods //
     //////////////////
-
     /** Initializes the framework. */
+    /**
+     * 初始化函数
+     * 该函数负责框架的初始化工作，包括重置已初始化的状态、注册默认组件、设置框架方法、配置默认设置以及执行启动配置。
+     * 无参数
+     * 无返回值
+     */
     public function init(): void
     {
         $initialized = $this->initialized;
         $self = $this;
 
+        // 如果已经初始化过，则重置相关状态
         if ($initialized) {
             $this->vars = [];
             $this->loader->reset();
             $this->dispatcher->reset();
         }
 
-        // Register default components
+        // 注册框架的默认组件，如Request, Response, Router和View
         $this->loader->register('request', Request::class);
         $this->loader->register('response', Response::class);
         $this->loader->register('router', Router::class);
 
+        // 配置View组件，设置视图路径和扩展名
         $this->loader->register('view', View::class, [], function (View $view) use ($self) {
             $view->path = $self->get('flight.views.path');
             $view->extension = $self->get('flight.views.extension');
         });
 
-        // Register framework methods
+        // 注册框架内部方法供外部使用
         $methods = [
             'start', 'stop', 'route', 'halt', 'error', 'notFound',
             'render', 'redirect', 'etag', 'lastModified', 'json', 'jsonp',
@@ -148,7 +173,7 @@ class Engine
             $this->dispatcher->set($name, [$this, "_$name"]);
         }
 
-        // Default configuration settings
+        // 设置框架的默认配置项
         $this->set('flight.base_url');
         $this->set('flight.case_sensitive', false);
         $this->set('flight.handle_errors', true);
@@ -157,22 +182,23 @@ class Engine
         $this->set('flight.views.extension', '.php');
         $this->set('flight.content_length', true);
 
-        // Startup configuration
+        // 定义启动时的配置，例如错误处理、路由大小写敏感性和响应内容长度设置
         $this->before('start', function () use ($self) {
-            // Enable error handling
+            // 如果启用了错误处理，则设置错误和异常处理器
             if ($self->get('flight.handle_errors')) {
                 set_error_handler([$self, 'handleError']);
                 set_exception_handler([$self, 'handleException']);
             }
 
-            // Set case-sensitivity
+            // 设置路由的大小写敏感性
             $self->router()->case_sensitive = $self->get('flight.case_sensitive');
-            // Set Content-Length
+            // 设置响应的内容长度
             $self->response()->content_length = $self->get('flight.content_length');
         });
 
         $this->initialized = true;
     }
+
 
     /**
      * Custom error handler. Converts errors into exceptions.

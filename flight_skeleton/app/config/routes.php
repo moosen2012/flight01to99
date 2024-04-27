@@ -31,3 +31,10 @@ Flight::group('/cms', function(){
         echo 'Admin settings';
     });
 });
+
+// 如果只提供一个匿名函数，它将在路由回调之前执行。
+// 除了类（详见下文）之外，没有“后置”中间件函数
+Flight::route('/hi', function() { echo ' Here I am!'; })->addMiddleware(function() {
+    echo 'Middleware first!';
+});
+
