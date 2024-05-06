@@ -4,74 +4,49 @@
 
 https://git.php.fail/lubiana/no-framework-tutorial
 
-
-
  [01-front-controller.md](https://git.php.fail/lubiana/no-framework-tutorial/src/branch/master/01-front-controller.md "01-front-controller.md")[Changing port to 1235 to not clash with smtp default port](https://git.php.fail/lubiana/no-framework-tutorial/commit/d81535c3c0e6cc70459abc776955b59994cb9e6d)
-
-
 
 [02-composer.md](https://git.php.fail/lubiana/no-framework-tutorial/src/branch/master/02-composer.md "02-composer.md")[Update author name in composer chapter](https://git.php.fail/lubiana/no-framework-tutorial/commit/99a31e45d0000e8f3f4d20d2945e2fa1251e1fc6)
 
-
-
 [03-error-handler.md](https://git.php.fail/lubiana/no-framework-tutorial/src/branch/master/03-error-handler.md "03-error-handler.md")[fix some typos](https://git.php.fail/lubiana/no-framework-tutorial/commit/62cff766db5797fcc70515bd47d827392681994b)
-
 
 [04-development-helpers.md](https://git.php.fail/lubiana/no-framework-tutorial/src/branch/master/04-development-helpers.md "04-development-helpers.md")[fix some typos](https://git.php.fail/lubiana/no-framework-tutorial/commit/62cff766db5797fcc70515bd47d827392681994b)
 
-
-
  [05-http.md](https://git.php.fail/lubiana/no-framework-tutorial/src/branch/master/05-http.md "05-http.md")[fix some typos](https://git.php.fail/lubiana/no-framework-tutorial/commit/62cff766db5797fcc70515bd47d827392681994b)
-
-
 
  [06-router.md](https://git.php.fail/lubiana/no-framework-tutorial/src/branch/master/06-router.md "06-router.md")[fix some typos](https://git.php.fail/lubiana/no-framework-tutorial/commit/62cff766db5797fcc70515bd47d827392681994b)
 
-
-
  [07-dispatching-to-a-class.md](https://git.php.fail/lubiana/no-framework-tutorial/src/branch/master/07-dispatching-to-a-class.md "07-dispatching-to-a-class.md")[fix some typos](https://git.php.fail/lubiana/no-framework-tutorial/commit/62cff766db5797fcc70515bd47d827392681994b)
-
-
 
  [08-inversion-of-control.md](https://git.php.fail/lubiana/no-framework-tutorial/src/branch/master/08-inversion-of-control.md "08-inversion-of-control.md")[fix some typos](https://git.php.fail/lubiana/no-framework-tutorial/commit/62cff766db5797fcc70515bd47d827392681994b)
 
-
-
  [09-dependency-injector.md](https://git.php.fail/lubiana/no-framework-tutorial/src/branch/master/09-dependency-injector.md "09-dependency-injector.md")[add small typo and wording improvements to chapters 9 and 10, update name of time service](https://git.php.fail/lubiana/no-framework-tutorial/commit/d880aeb9a65be20de02ea40ac9446e2aca3fbb3a)
 
-
-
 [10-invoker.md](https://git.php.fail/lubiana/no-framework-tutorial/src/branch/master/10-invoker.md "10-invoker.md")[add small typo and wording improvements to chapters 9 and 10, update name of time service](https://git.php.fail/lubiana/no-framework-tutorial/commit/d880aeb9a65be20de02ea40ac9446e2aca3fbb3a)
-
-
 
  [11-templating.md](https://git.php.fail/lubiana/no-framework-tutorial/src/branch/master/11-templating.md "11-templating.md")[update chapter 11](https://git.php.fail/lubiana/no-framework-tutorial/commit/9b14e32639be24f5577288a6db962f32518b0252)
 
 [12-configuration.md](https://git.php.fail/lubiana/no-framework-tutorial/src/branch/master/12-configuration.md "12-configuration.md")[simplify chapter 12](https://git.php.fail/lubiana/no-framework-tutorial/commit/f857fa475239729cb9068ba745a82cd955c34917)
 
 [13-refactoring.md](https://git.php.fail/lubiana/no-framework-tutorial/src/branch/master/13-refactoring.md "13-refactoring.md")[add chapter about data repositories, and start work on perfomance chapter](https://git.php.fail/lubiana/no-framework-tutorial/commit/9a1f78947b8b6b8e42f22b5881e19f66a24d7c16)
- 
+
  [14-middleware.md](https://git.php.fail/lubiana/no-framework-tutorial/src/branch/master/14-middleware.md "14-middleware.md")[fix some typos and link to a blogpost about middleware pattern](https://git.php.fail/lubiana/no-framework-tutorial/commit/68d4abab8fda2a7ffb1dce37ecbb06a51232a8b2)
- 
+
  [15-adding-content.md](https://git.php.fail/lubiana/no-framework-tutorial/src/branch/master/15-adding-content.md "15-adding-content.md")[fix typos in chapters 15 to 17](https://git.php.fail/lubiana/no-framework-tutorial/commit/f5c444d4c74d54def04e710db7e656eb6c98004e)
- 
+
  [16-data-repository.md](https://git.php.fail/lubiana/no-framework-tutorial/src/branch/master/16-data-repository.md "16-data-repository.md")[fix typos in chapters 15 to 17](https://git.php.fail/lubiana/no-framework-tutorial/commit/f5c444d4c74d54def04e710db7e656eb6c98004e)
- 
+
  [17-performance.md](https://git.php.fail/lubiana/no-framework-tutorial/src/branch/master/17-performance.md "17-performance.md")[fix typos in chapters 15 to 17](https://git.php.fail/lubiana/no-framework-tutorial/commit/f5c444d4c74d54def04e710db7e656eb6c98004e)
- 
+
  [18-caching.md](https://git.php.fail/lubiana/no-framework-tutorial/src/branch/master/18-caching.md "18-caching.md")[add perfomance chapters](https://git.php.fail/lubiana/no-framework-tutorial/commit/ececd7dcb5b37e7679831fa4b58dfd58cddf5acd)
- 
+
  [LICENSE](https://git.php.fail/lubiana/no-framework-tutorial/src/branch/master/LICENSE "LICENSE")[Create LICENSE](https://git.php.fail/lubiana/no-framework-tutorial/commit/c9df0411b489c968e893e58cb0adb04a63b94cdc)
- 
+
  [README.md](https://git.php.fail/lubiana/no-framework-tutorial/src/branch/master/README.md "README.md")[fix some typos and link to a blogpost about middleware pattern](https://git.php.fail/lubiana/no-framework-tutorial/commit/68d4abab8fda2a7ffb1dce37ecbb06a51232a8b2)
- 
+
  [Vagrantfile](https://git.php.fail/lubiana/no-framework-tutorial/src/branch/master/Vagrantfile "Vagrantfile")
- 
+
  [enable intl extension](https://git.php.fail/lubiana/no-framework-tutorial/commit/997d160796d9a2123f01c43d9b5ca00b76bb614b)
-
-
-
-
 
 Hello and welcome to this tutorial with helps you in understanding how to write complex apps without the help of a framework. This tutorial is not for people who have never written PHP before, you should at least have some experience with object oriented PHP and be able to look at the official PHP-Documentation to figure out what a function or class we are using does.  
 您好，欢迎来到本教程，帮助您了解如何在没有框架的帮助下编写复杂的应用程序。本教程不适合以前从未编写过PHP的人，你至少应该有一些面向对象PHP的经验，并且能够查看官方的PHP文档来弄清楚我们正在使用的函数或类是什么。
@@ -98,10 +73,6 @@ cd app
 I have exposed the port 1235 to be used in the VM, if you would like to use another one you are free to modify the Vagrantfile.  
 我已经公开了在VM中使用的端口1235，如果你想使用另一个端口，你可以自由修改Vagrantfile。
 
-
-
-
-
 ### Front Controller 前端控制器
 
 A [front controller](http://en.wikipedia.org/wiki/Front_Controller_pattern) is a single point of entry for your application.  
@@ -126,7 +97,8 @@ Inside the `public` folder you can now create your `index.php`. Remember that
 在 `public` 文件夹中，您现在可以创建您的 `index.php` 。请记住，您不想在这里暴露任何东西，因此只需将以下代码放在那里：
 
 ```php
-<?php declare(strict_types=1); 
+<?php 
+declare(strict_types=1); 
 
 require __DIR__ . '/../src/Bootstrap.php';
 ```
@@ -147,7 +119,8 @@ Now navigate inside your `src` folder and create a new `Bootstrap.php` file 
 现在在 `src` 文件夹中导航并创建一个新的 `Bootstrap.php` 文件，其中包含以下内容：
 
 ```php
-<?php declare(strict_types=1);
+<?php 
+declare(strict_types=1);
 
 echo 'Hello World!';
 ```
@@ -167,8 +140,6 @@ Some editors and IDE's put their own files into your project folders. If that is
 ```text
 .idea/
 ```
-
-
 
 ### Composer 作曲家
 
@@ -243,10 +214,6 @@ vendor/
 Now you have successfully created an empty playground which you can use to set up your project.  
 现在，您已经成功创建了一个空的操场，您可以使用它来设置您的项目。
 
-
-
-
-
 ### Error Handler 错误处理程序
 
 An error handler allows you to customize what happens if your code results in an error.  
@@ -319,10 +286,6 @@ throw new \Exception("Ooooopsie");
 
 You should now see a error page with the line highlighted where you throw the exception. If not, go back and debug until you get it working. Now would also be a good time for another commit.  
 您现在应该看到一个错误页面，其中突出显示了抛出异常的那一行。如果没有，则返回并调试，直到它工作。现在也是另一次提交的好时机。
-
-
-
-
 
 ### Development Helpers 发展助手
 
@@ -623,10 +586,6 @@ You could also configure PhpStorm to automatically run these commands in the bac
 My workflow is to just write my code the way I currently feel and that execute the phpstan and the fix scripts before committing and pushing the code. There is a [highly opiniated blogpost](https://tomasvotruba.com/blog/2019/06/24/do-you-use-php-codesniffer-and-php-cs-fixer-phpstorm-plugin-you-are-slow-and-expensive/) discussing that topic further. That you can read. But in the end it boils down to what you are most comfortable with.  
 我的工作流程是按照我目前的感觉编写代码，并在提交和推送代码之前执行phpstan和修复脚本。有一个非常固执己见的博客文章进一步讨论了这个话题。你能读懂。但最终它归结为你最舒服的。
 
-
-
-
-
 ### HTTP
 
 PHP already has a few things built in to make working with HTTP easier. For example there are the [superglobals](http://php.net/manual/en/language.variables.superglobals.php) that contain the request information.  
@@ -743,10 +702,6 @@ Remember that the object is only storing data, so if you set multiple status cod
 Be sure to run composer phpstan, composer fix and composer check before moving on to the next chapter  
 在进入下一章之前，请确保运行composer phpstan、composer fix和composer check
 
-
-
-
-
 ### Router 路由器
 
 A router dispatches to different handlers depending on rules that you have set up.  
@@ -849,8 +804,6 @@ This is already an improvement, but now all the handler code is in the `routes.
 
 Of course, we now need to add the 'config' folder to the configuration files of our dev helpers so that they can scan that directory as well.  
 当然，我们现在需要将"config"文件夹添加到我们的开发助手的配置文件中，以便他们也可以扫描该目录。
-
-
 
 ### Dispatching to a Class
 
@@ -988,10 +941,6 @@ try {
 Check if our code still works, try to trigger some errors, run phpstan and the fix command and don't forget to commit your changes.  
 检查我们的代码是否还能工作，尝试触发一些错误，运行phpstan和fix命令，不要忘记提交你的修改。
 
-
-
-
-
 ### Inversion of Control 控制反转
 
 In the last part you have set up a controller class and generated our Http-Response-object in that class, but if we want to switch to a more powerfull Http-Implementation later, or need to create our own for some special purposes, then we would need to edit every one of our request handlers to call a different constructor of the class.  
@@ -1043,12 +992,6 @@ $handler = new $className($response);
 
 Of course we need to also update all the other handlers.  
 当然，我们还需要更新所有其他处理程序。
-
-
-
-
-
-
 
 ### Dependency Injector 依赖注入
 
@@ -1297,10 +1240,6 @@ return $builder->build();
 As the PHP-DI container that is return by the `$builder->build()` method implements the same container interface as our previously used ad-hoc container we won't need to update the Bootstrap file and everything still works.  
 由于 `$builder->build()` 方法返回的PHP-DI容器实现了与我们以前使用的ad-hoc容器相同的容器接口，因此我们不需要更新Bootstrap文件，一切都仍然有效。
 
-
-
-
-
 ### Invoker 调用程序
 
 Currently, all our Actions need to implement the RequestHandlerInterface, which forces us to accept the Request as the one and only argument to our handle function, but most of the time we only need a few attributes in our Action a long with some services and not the whole Request object with all its various properties.  
@@ -1387,10 +1326,6 @@ Now we are able to define absolutely everything in routes that is considered a 
 
 But let us move on to something more fun and add some templating functionality to our application as we are trying to build a website in the end.  
 但是，让我们继续做一些更有趣的事情，在我们最终试图构建一个网站时，为我们的应用程序添加一些模板功能。
-
-
-
-
 
 ### Templating 模板
 
@@ -1544,10 +1479,6 @@ Navigate to the hello page in your browser to make sure everything works.
 Before you move on to the next chapter be sure to run our quality tools and commit your changes.  
 在进入下一章之前，请确保运行我们的质量工具并提交您的更改。
 
-
-
-
-
 ### Configuration 配置
 
 In the last chapter we added some more definitions to our dependencies.php in that definitions we needed to pass quite a few configuration settings and filesystem strings to the constructors of the classes. This might work for a small projects, but if we are growing we want to source that out to a more explicit file that holds all the configuration values for our project.  
@@ -1636,10 +1567,6 @@ $environment = $config->environment;
 
 Check if everything still works, run your code quality checks and commit the changes before moving on the next chapter. You might notice that phpstan throws an error as there is a documented violation missing. You can either regenerate the baseline, or simply remove that line from the `phpstan-baseline.neon` file.  
 检查一切是否仍然有效，运行代码质量检查并在进入下一章之前提交更改。你可能会注意到phpstan抛出一个错误，因为缺少一个记录的违规。您可以重新生成基线，或者简单地从 `phpstan-baseline.neon` 文件中删除该行。
-
-
-
-
 
 ### Refactoring 重构
 
@@ -2022,12 +1949,6 @@ You might get some Errors here because the Container cannot resolve all the depe
 And as always, don't forget to commit your changes.  
 和往常一样，不要忘记提交您的更改。
 
-
-
-
-
-
-
 ### Middleware 中间件
 
 In the last chapter we wrote our RouterClass to implement the middleware interface, and in this chapter I want to explain a bit more about what this interface does and why it is used in many applications.  
@@ -2330,12 +2251,6 @@ Lets try if you can make the kernel work with our created Pipeline implementatio
 **A quick note about docblocks:** You might have noticed, that I rarely add docblocks to my the code in the examples, and when I do it seems kind of random. My philosophy is that I only add docblocks when there is no way to automatically get the exact type from the code itself. For me docblocks only serve two purposes: help my IDE to understand what it choices it has for code completion and to help the static analysis to better understand the code. There is a great blogpost about the [cost and value of DocBlocks](https://localheinz.com/blog/2018/05/06/cost-and-value-of-docblocks/), although it is written in 2018 at a time before PHP 7.4 was around everything written there is still valid today.  
 关于docblocks的快速说明：你可能已经注意到了，我很少在示例中的代码中添加docblock，而且当我这样做时，它似乎是随机的。我的哲学是，我只在无法从代码本身自动获取确切类型的情况下添加docblock。对我来说，docblocks只有两个目的：帮助我的IDE理解它对代码完成的选择，以及帮助静态分析更好地理解代码。有一篇关于DocBlocks的成本和价值的博客文章，尽管它是在2018年写的，当时PHP 7.4还没有发布，但今天仍然有效。
 
-
-
-
-
-
-
 ### Adding Content 添加内容
 
 By now we did not really display anything but some examples to in our application, and it is now time to make our app display some content. For example we could our app be able to display the Markdown files used in this tutorial as nicely rendered HTML Pages that can be viewed in the browser instead of the editor you are using.  
@@ -2580,14 +2495,6 @@ You can now navigate your Browser to [localhost:1235/page][http://localhost:1235
 
 Of course this code is far from looking good. We heavily rely on the pages being files in the filesystem, and the action should never be aware of the filesystem in the first place, also we have a lot of string replacements and other repetitive code in the file. And phpstan is going to scream at us a lot, but if we rewrite the code to satisfy all the checks we would add even more lines to that simple class, so lets move on to the next chapter where we move all the logic to separate classes following our holy SOLID principles :)  
 当然，这段代码看起来并不好。我们严重依赖于页面是文件系统中的文件，并且操作首先不应该知道文件系统，而且我们在文件中有很多字符串替换和其他重复代码。phpstan会对我们大喊大叫，但是如果我们重写代码来满足所有的检查，我们会在这个简单的类中添加更多的行，所以让我们进入下一章，在那里我们将所有的逻辑移动到单独的类中，遵循我们神圣的SOLID原则：）
-
-
-
-
-
-
-
-
 
 ## Data Repository 数据储存库
 
@@ -2838,10 +2745,6 @@ class Page
 Check the page in your browser if everything still works, don't forget to run phpstan and the others fixers before committing your changes and moving on to the next chapter.  
 在浏览器中检查页面，如果一切正常，在提交更改并进入下一章之前，不要忘记运行phpstan和其他修复程序。
 
-
-
-
-
 ## Autoloading performance 自动加载性能
 
 Although our application is still very small, and you should not really experience any performance issues right now, there are still some things we can already consider and take a look at. If I check the network tab in my browser it takes about 90-400ms to show a simple rendered markdown, with is sort of ok but in my opinion way to long as we are not really doing anything and do not connect to any external services. Mostly we are just reading around 16 markdown files, a template, some config files here and there and parse some markdown. So that should not really take that long.  
@@ -2875,12 +2778,6 @@ In my case the response time falls down to under an average of 30ms with some sp
 
 Although the composer manual states not to use the optimization in a dev environment I personally have not encountered any errors with the first level of optimizations, so we can use that level here. If you add the line from the documentation to your `composer.json` so that the autoloader gets optimized everytime we install new packages.  
 虽然composer手册声明不要在开发环境中使用优化，但我个人在第一级优化中没有遇到任何错误，所以我们可以在这里使用该级别。如果您将文档中的这一行添加到您的 `composer.json` 中，那么每次安装新软件包时，自动加载器都会得到优化。
-
-
-
-
-
-
 
 **DISClAIMER** I do not really have a lot of experience when it comes to caching, so this chapter is mostly some random thoughts and ideas I wanted to explore when writing this tutorial, you should definitely take everything that is being said here with caution and try to read up on some other sources. But that holds true for the whole tutorial anyway :)  
 disclaimer我真的没有太多的经验，当谈到缓存，所以这一章主要是一些随机的想法和想法，我想探讨当写这篇教程，你一定要采取一切都是在这里所说的谨慎，并尝试阅读一些其他来源。但无论如何，这对整个教程都是正确的：）
